@@ -8,16 +8,8 @@ PODS:
   - SDWebImage (5.13.5):
     - SDWebImage/Core (= 5.13.5)
   - SDWebImage/Core (5.13.5)
-  - TianyiAVManager (0.1.0):
-    - Colours
-    - Masonry
-    - SDWebImage
-    - TianyiUIEngine
-  - TianyiUIEngine (0.1.0):
-    - Colours
-    - Masonry
-    - MJRefresh
-    - SDWebImage
+  - TianyiAVManager (0.1.0)
+  - TianyiUIEngine (0.1.0)
 
 DEPENDENCIES:
   - Colours
@@ -48,8 +40,8 @@ SPEC CHECKSUMS:
   MJExtension: 21c5f6f8c4d5d8844b7ae8fbae08fed0b501f961
   MJRefresh: fdf5e979eb406a0341468932d1dfc8b7f9fce961
   SDWebImage: 23d714cd599354ee7906dbae26dff89b421c4370
-  TianyiAVManager: 6f90a395d1da4603580ff2c9e64ebaa995f4a76c
-  TianyiUIEngine: 3975755f4d5a1ba6027bea11a6c2c497602604a4
+  TianyiAVManager: cbb8409a73401a1df51f18f3449f04c36eaa4496
+  TianyiUIEngine: 851e16ab20267775c9e200a29129344bbef306bd
 
 PODFILE CHECKSUM: 4a61f66587d72b2ab986c1dbb968091edd16e269
 

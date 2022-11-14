@@ -18,24 +18,5 @@
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "TianyiUIEngine/Classes/**/*",
-  "resource_bundles": {
-    "TianyiUIEngine": [
-      "TianyiUIEngine/Assets/*"
-    ]
-  },
-  "dependencies": {
-    "Masonry": [
-
-    ],
-    "Colours": [
-
-    ],
-    "SDWebImage": [
-
-    ],
-    "MJRefresh": [
-
-    ]
-  }
+  "source_files": "TianyiUIEngine/Classes/**/*"
 }
