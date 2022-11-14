@@ -10,6 +10,11 @@
 #endif
 #endif
 
+#import "TYBaseTool.h"
+#import "TYPageListBaseCell.h"
+#import "TYBaseViewController.h"
+#import "TYHomePageViewController.h"
+#import "TYPageListBaseViewController.h"
 
 FOUNDATION_EXPORT double TianyiUIEngineVersionNumber;
 FOUNDATION_EXPORT const unsigned char TianyiUIEngineVersionString[];

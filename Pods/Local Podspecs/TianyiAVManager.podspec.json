@@ -18,5 +18,15 @@
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "TianyiAVManager/Classes/**/*"
+  "source_files": "TianyiAVManager/Classes/**/*",
+  "resource_bundles": {
+    "TianyiAVManager": [
+      "TianyiAVManager/Assets/*"
+    ]
+  },
+  "dependencies": {
+    "TianyiUIEngine": [
+
+    ]
+  }
 }
