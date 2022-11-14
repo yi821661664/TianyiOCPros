@@ -1,0 +1,41 @@
+{
+  "name": "TianyiAVManager",
+  "version": "0.1.0",
+  "summary": "A short description of TianyiAVManager.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/易召强/TianyiAVManager",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "易召强": "yizhaoqiang@tinman.cn"
+  },
+  "source": {
+    "git": "https://github.com/易召强/TianyiAVManager.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "TianyiAVManager/Classes/**/*",
+  "resource_bundles": {
+    "TianyiAVManager": [
+      "TianyiAVManager/Assets/*"
+    ]
+  },
+  "dependencies": {
+    "Masonry": [
+
+    ],
+    "Colours": [
+
+    ],
+    "SDWebImage": [
+
+    ],
+    "TianyiUIEngine": [
+
+    ]
+  }
+}

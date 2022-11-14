@@ -1,0 +1,6 @@
+framework module TianyiUIEngine {
+  umbrella header "TianyiUIEngine-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,730 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16F83F5128C3919C01D942FE /* Pods_TianyiOCPros_TianyiOCProsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BED85A0BFAC2714E315EB01 /* Pods_TianyiOCPros_TianyiOCProsUITests.framework */; };
+		7BB5D7452922000A00053347 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB5D7442922000A00053347 /* AppDelegate.m */; };
+		7BB5D7502922000D00053347 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BB5D74F2922000D00053347 /* Assets.xcassets */; };
+		7BB5D7532922000D00053347 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BB5D7512922000D00053347 /* LaunchScreen.storyboard */; };
+		7BB5D7562922000D00053347 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB5D7552922000D00053347 /* main.m */; };
+		7BB5D7602922000D00053347 /* TianyiOCProsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB5D75F2922000D00053347 /* TianyiOCProsTests.m */; };
+		7BB5D76A2922000D00053347 /* TianyiOCProsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB5D7692922000D00053347 /* TianyiOCProsUITests.m */; };
+		7BB5D76C2922000D00053347 /* TianyiOCProsUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB5D76B2922000D00053347 /* TianyiOCProsUITestsLaunchTests.m */; };
+		E70852C6C9BB3B76ED77D976 /* Pods_TianyiOCPros.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE5F93B9107C684706771A14 /* Pods_TianyiOCPros.framework */; };
+		EDA16065CF6EE20A35E031AC /* Pods_TianyiOCProsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A50AAC0434764E096D06FA3A /* Pods_TianyiOCProsTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7BB5D75C2922000D00053347 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BB5D7382922000A00053347 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BB5D73F2922000A00053347;
+			remoteInfo = TianyiOCPros;
+		};
+		7BB5D7662922000D00053347 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BB5D7382922000A00053347 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BB5D73F2922000A00053347;
+			remoteInfo = TianyiOCPros;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05C0682E4CA3C748586703E0 /* Pods-TianyiOCPros.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TianyiOCPros.debug.xcconfig"; path = "Target Support Files/Pods-TianyiOCPros/Pods-TianyiOCPros.debug.xcconfig"; sourceTree = "<group>"; };
+		43BD65FBFEFA426E879A96B6 /* Pods-TianyiOCPros-TianyiOCProsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TianyiOCPros-TianyiOCProsUITests.debug.xcconfig"; path = "Target Support Files/Pods-TianyiOCPros-TianyiOCProsUITests/Pods-TianyiOCPros-TianyiOCProsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5F8AF11ECA996F582CC03599 /* Pods-TianyiOCProsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TianyiOCProsTests.debug.xcconfig"; path = "Target Support Files/Pods-TianyiOCProsTests/Pods-TianyiOCProsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6BED85A0BFAC2714E315EB01 /* Pods_TianyiOCPros_TianyiOCProsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TianyiOCPros_TianyiOCProsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BB5D7402922000A00053347 /* TianyiOCPros.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TianyiOCPros.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BB5D7432922000A00053347 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7BB5D7442922000A00053347 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7BB5D74F2922000D00053347 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7BB5D7522922000D00053347 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7BB5D7542922000D00053347 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BB5D7552922000D00053347 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7BB5D75B2922000D00053347 /* TianyiOCProsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TianyiOCProsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BB5D75F2922000D00053347 /* TianyiOCProsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TianyiOCProsTests.m; sourceTree = "<group>"; };
+		7BB5D7652922000D00053347 /* TianyiOCProsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TianyiOCProsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BB5D7692922000D00053347 /* TianyiOCProsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TianyiOCProsUITests.m; sourceTree = "<group>"; };
+		7BB5D76B2922000D00053347 /* TianyiOCProsUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TianyiOCProsUITestsLaunchTests.m; sourceTree = "<group>"; };
+		A1D77372B01E46F6178F241B /* Pods-TianyiOCProsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TianyiOCProsTests.release.xcconfig"; path = "Target Support Files/Pods-TianyiOCProsTests/Pods-TianyiOCProsTests.release.xcconfig"; sourceTree = "<group>"; };
+		A50AAC0434764E096D06FA3A /* Pods_TianyiOCProsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TianyiOCProsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC06CC2B52CC7E271BF5A903 /* Pods-TianyiOCPros.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TianyiOCPros.release.xcconfig"; path = "Target Support Files/Pods-TianyiOCPros/Pods-TianyiOCPros.release.xcconfig"; sourceTree = "<group>"; };
+		BE5F93B9107C684706771A14 /* Pods_TianyiOCPros.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TianyiOCPros.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F377104594ED975785757AC8 /* Pods-TianyiOCPros-TianyiOCProsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TianyiOCPros-TianyiOCProsUITests.release.xcconfig"; path = "Target Support Files/Pods-TianyiOCPros-TianyiOCProsUITests/Pods-TianyiOCPros-TianyiOCProsUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7BB5D73D2922000A00053347 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E70852C6C9BB3B76ED77D976 /* Pods_TianyiOCPros.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BB5D7582922000D00053347 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDA16065CF6EE20A35E031AC /* Pods_TianyiOCProsTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BB5D7622922000D00053347 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16F83F5128C3919C01D942FE /* Pods_TianyiOCPros_TianyiOCProsUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		51EB272EE3031E8CF12B3A26 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE5F93B9107C684706771A14 /* Pods_TianyiOCPros.framework */,
+				6BED85A0BFAC2714E315EB01 /* Pods_TianyiOCPros_TianyiOCProsUITests.framework */,
+				A50AAC0434764E096D06FA3A /* Pods_TianyiOCProsTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7BB5D7372922000A00053347 = {
+			isa = PBXGroup;
+			children = (
+				7BB5D7422922000A00053347 /* TianyiOCPros */,
+				7BB5D75E2922000D00053347 /* TianyiOCProsTests */,
+				7BB5D7682922000D00053347 /* TianyiOCProsUITests */,
+				7BB5D7412922000A00053347 /* Products */,
+				D111777759134897D2FAFDA2 /* Pods */,
+				51EB272EE3031E8CF12B3A26 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7BB5D7412922000A00053347 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BB5D7402922000A00053347 /* TianyiOCPros.app */,
+				7BB5D75B2922000D00053347 /* TianyiOCProsTests.xctest */,
+				7BB5D7652922000D00053347 /* TianyiOCProsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7BB5D7422922000A00053347 /* TianyiOCPros */ = {
+			isa = PBXGroup;
+			children = (
+				7BB5D7432922000A00053347 /* AppDelegate.h */,
+				7BB5D7442922000A00053347 /* AppDelegate.m */,
+				7BB5D74F2922000D00053347 /* Assets.xcassets */,
+				7BB5D7512922000D00053347 /* LaunchScreen.storyboard */,
+				7BB5D7542922000D00053347 /* Info.plist */,
+				7BB5D7552922000D00053347 /* main.m */,
+			);
+			path = TianyiOCPros;
+			sourceTree = "<group>";
+		};
+		7BB5D75E2922000D00053347 /* TianyiOCProsTests */ = {
+			isa = PBXGroup;
+			children = (
+				7BB5D75F2922000D00053347 /* TianyiOCProsTests.m */,
+			);
+			path = TianyiOCProsTests;
+			sourceTree = "<group>";
+		};
+		7BB5D7682922000D00053347 /* TianyiOCProsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7BB5D7692922000D00053347 /* TianyiOCProsUITests.m */,
+				7BB5D76B2922000D00053347 /* TianyiOCProsUITestsLaunchTests.m */,
+			);
+			path = TianyiOCProsUITests;
+			sourceTree = "<group>";
+		};
+		D111777759134897D2FAFDA2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				05C0682E4CA3C748586703E0 /* Pods-TianyiOCPros.debug.xcconfig */,
+				AC06CC2B52CC7E271BF5A903 /* Pods-TianyiOCPros.release.xcconfig */,
+				43BD65FBFEFA426E879A96B6 /* Pods-TianyiOCPros-TianyiOCProsUITests.debug.xcconfig */,
+				F377104594ED975785757AC8 /* Pods-TianyiOCPros-TianyiOCProsUITests.release.xcconfig */,
+				5F8AF11ECA996F582CC03599 /* Pods-TianyiOCProsTests.debug.xcconfig */,
+				A1D77372B01E46F6178F241B /* Pods-TianyiOCProsTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7BB5D73F2922000A00053347 /* TianyiOCPros */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BB5D76F2922000D00053347 /* Build configuration list for PBXNativeTarget "TianyiOCPros" */;
+			buildPhases = (
+				66BD236B455638D21D7D95ED /* [CP] Check Pods Manifest.lock */,
+				7BB5D73C2922000A00053347 /* Sources */,
+				7BB5D73D2922000A00053347 /* Frameworks */,
+				7BB5D73E2922000A00053347 /* Resources */,
+				54984C87513DD62285D41C39 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TianyiOCPros;
+			productName = TianyiOCPros;
+			productReference = 7BB5D7402922000A00053347 /* TianyiOCPros.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7BB5D75A2922000D00053347 /* TianyiOCProsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BB5D7722922000D00053347 /* Build configuration list for PBXNativeTarget "TianyiOCProsTests" */;
+			buildPhases = (
+				4548EAC0F9B5AC52E2189ACB /* [CP] Check Pods Manifest.lock */,
+				7BB5D7572922000D00053347 /* Sources */,
+				7BB5D7582922000D00053347 /* Frameworks */,
+				7BB5D7592922000D00053347 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BB5D75D2922000D00053347 /* PBXTargetDependency */,
+			);
+			name = TianyiOCProsTests;
+			productName = TianyiOCProsTests;
+			productReference = 7BB5D75B2922000D00053347 /* TianyiOCProsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7BB5D7642922000D00053347 /* TianyiOCProsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BB5D7752922000D00053347 /* Build configuration list for PBXNativeTarget "TianyiOCProsUITests" */;
+			buildPhases = (
+				2ACF93CD6DD616D24E3EADEA /* [CP] Check Pods Manifest.lock */,
+				7BB5D7612922000D00053347 /* Sources */,
+				7BB5D7622922000D00053347 /* Frameworks */,
+				7BB5D7632922000D00053347 /* Resources */,
+				24C0556C990C3F1860FAA019 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BB5D7672922000D00053347 /* PBXTargetDependency */,
+			);
+			name = TianyiOCProsUITests;
+			productName = TianyiOCProsUITests;
+			productReference = 7BB5D7652922000D00053347 /* TianyiOCProsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7BB5D7382922000A00053347 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					7BB5D73F2922000A00053347 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					7BB5D75A2922000D00053347 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 7BB5D73F2922000A00053347;
+					};
+					7BB5D7642922000D00053347 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 7BB5D73F2922000A00053347;
+					};
+				};
+			};
+			buildConfigurationList = 7BB5D73B2922000A00053347 /* Build configuration list for PBXProject "TianyiOCPros" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7BB5D7372922000A00053347;
+			productRefGroup = 7BB5D7412922000A00053347 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7BB5D73F2922000A00053347 /* TianyiOCPros */,
+				7BB5D75A2922000D00053347 /* TianyiOCProsTests */,
+				7BB5D7642922000D00053347 /* TianyiOCProsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7BB5D73E2922000A00053347 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BB5D7532922000D00053347 /* LaunchScreen.storyboard in Resources */,
+				7BB5D7502922000D00053347 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BB5D7592922000D00053347 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BB5D7632922000D00053347 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24C0556C990C3F1860FAA019 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TianyiOCPros-TianyiOCProsUITests/Pods-TianyiOCPros-TianyiOCProsUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TianyiOCPros-TianyiOCProsUITests/Pods-TianyiOCPros-TianyiOCProsUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TianyiOCPros-TianyiOCProsUITests/Pods-TianyiOCPros-TianyiOCProsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2ACF93CD6DD616D24E3EADEA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TianyiOCPros-TianyiOCProsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4548EAC0F9B5AC52E2189ACB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TianyiOCProsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54984C87513DD62285D41C39 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TianyiOCPros/Pods-TianyiOCPros-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TianyiOCPros/Pods-TianyiOCPros-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TianyiOCPros/Pods-TianyiOCPros-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66BD236B455638D21D7D95ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TianyiOCPros-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7BB5D73C2922000A00053347 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BB5D7452922000A00053347 /* AppDelegate.m in Sources */,
+				7BB5D7562922000D00053347 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BB5D7572922000D00053347 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BB5D7602922000D00053347 /* TianyiOCProsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BB5D7612922000D00053347 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BB5D76C2922000D00053347 /* TianyiOCProsUITestsLaunchTests.m in Sources */,
+				7BB5D76A2922000D00053347 /* TianyiOCProsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7BB5D75D2922000D00053347 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BB5D73F2922000A00053347 /* TianyiOCPros */;
+			targetProxy = 7BB5D75C2922000D00053347 /* PBXContainerItemProxy */;
+		};
+		7BB5D7672922000D00053347 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BB5D73F2922000A00053347 /* TianyiOCPros */;
+			targetProxy = 7BB5D7662922000D00053347 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7BB5D7512922000D00053347 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BB5D7522922000D00053347 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7BB5D76D2922000D00053347 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7BB5D76E2922000D00053347 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7BB5D7702922000D00053347 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05C0682E4CA3C748586703E0 /* Pods-TianyiOCPros.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3CL2V7G488;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TianyiOCPros/Info.plist;
+				INFOPLIST_KEY_UILaunchStoryboardName = Main.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = base.tianyi.com.TianyiOCPros;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7BB5D7712922000D00053347 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC06CC2B52CC7E271BF5A903 /* Pods-TianyiOCPros.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3CL2V7G488;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TianyiOCPros/Info.plist;
+				INFOPLIST_KEY_UILaunchStoryboardName = Main.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = base.tianyi.com.TianyiOCPros;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7BB5D7732922000D00053347 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F8AF11ECA996F582CC03599 /* Pods-TianyiOCProsTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3CL2V7G488;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = base.tianyi.com.TianyiOCProsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TianyiOCPros.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TianyiOCPros";
+			};
+			name = Debug;
+		};
+		7BB5D7742922000D00053347 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1D77372B01E46F6178F241B /* Pods-TianyiOCProsTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3CL2V7G488;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = base.tianyi.com.TianyiOCProsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TianyiOCPros.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TianyiOCPros";
+			};
+			name = Release;
+		};
+		7BB5D7762922000D00053347 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43BD65FBFEFA426E879A96B6 /* Pods-TianyiOCPros-TianyiOCProsUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3CL2V7G488;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = base.tianyi.com.TianyiOCProsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TianyiOCPros;
+			};
+			name = Debug;
+		};
+		7BB5D7772922000D00053347 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F377104594ED975785757AC8 /* Pods-TianyiOCPros-TianyiOCProsUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3CL2V7G488;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = base.tianyi.com.TianyiOCProsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TianyiOCPros;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7BB5D73B2922000A00053347 /* Build configuration list for PBXProject "TianyiOCPros" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BB5D76D2922000D00053347 /* Debug */,
+				7BB5D76E2922000D00053347 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BB5D76F2922000D00053347 /* Build configuration list for PBXNativeTarget "TianyiOCPros" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BB5D7702922000D00053347 /* Debug */,
+				7BB5D7712922000D00053347 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BB5D7722922000D00053347 /* Build configuration list for PBXNativeTarget "TianyiOCProsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BB5D7732922000D00053347 /* Debug */,
+				7BB5D7742922000D00053347 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BB5D7752922000D00053347 /* Build configuration list for PBXNativeTarget "TianyiOCProsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BB5D7762922000D00053347 /* Debug */,
+				7BB5D7772922000D00053347 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7BB5D7382922000A00053347 /* Project object */;
+}

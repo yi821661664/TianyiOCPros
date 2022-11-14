@@ -1,0 +1,6 @@
+framework module TianyiAVManager {
+  umbrella header "TianyiAVManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

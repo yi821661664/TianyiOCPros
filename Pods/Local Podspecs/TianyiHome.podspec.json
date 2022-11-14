@@ -1,0 +1,35 @@
+{
+  "name": "TianyiHome",
+  "version": "0.1.0",
+  "summary": "A short description of TianyiHome.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/易召强/TianyiHome",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "易召强": "yizhaoqiang@tinman.cn"
+  },
+  "source": {
+    "git": "https://github.com/易召强/TianyiHome.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "TianyiHome/Classes/**/*",
+  "dependencies": {
+    "Masonry": [
+
+    ],
+    "Colours": [
+
+    ]
+  },
+  "resource_bundles": {
+    "TianyiHome": [
+      "TianyiHome/Assets/*"
+    ]
+  }
+}

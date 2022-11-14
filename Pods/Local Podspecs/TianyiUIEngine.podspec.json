@@ -1,0 +1,41 @@
+{
+  "name": "TianyiUIEngine",
+  "version": "0.1.0",
+  "summary": "A short description of TianyiUIEngine.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/易召强/TianyiUIEngine",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "易召强": "yizhaoqiang@tinman.cn"
+  },
+  "source": {
+    "git": "https://github.com/易召强/TianyiUIEngine.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "TianyiUIEngine/Classes/**/*",
+  "resource_bundles": {
+    "TianyiUIEngine": [
+      "TianyiUIEngine/Assets/*"
+    ]
+  },
+  "dependencies": {
+    "Masonry": [
+
+    ],
+    "Colours": [
+
+    ],
+    "SDWebImage": [
+
+    ],
+    "MJRefresh": [
+
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+framework module Pods_TianyiOCPros {
+  umbrella header "Pods-TianyiOCPros-umbrella.h"
+
+  export *
+  module * { export * }
+}
