@@ -159,6 +159,10 @@
 		78FF5420AEAA3DBC38CEC9A7174F05C3 /* AAFilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17CBD2BB8DB352477994C64297770E34 /* AAFilter.cpp */; };
 		7A424FED21A399FE2610DCB710A4A3FB /* SDWebImageOptionsProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0DA34E3D477CAD42C9D8E25C5D12B7 /* SDWebImageOptionsProcessor.m */; };
 		7B05A8DE072977F90AA84A0E98E23167 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAD091959649A8143E30AA0F6B01F23 /* MASConstraint.m */; };
+		7BE190432923660700D179D0 /* TYAudioUnitFileWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BE190412923660700D179D0 /* TYAudioUnitFileWriter.h */; };
+		7BE190442923660700D179D0 /* TYAudioUnitFileWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE190422923660700D179D0 /* TYAudioUnitFileWriter.m */; };
+		7BE190472923716800D179D0 /* TYAudioSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BE190452923716800D179D0 /* TYAudioSession.h */; };
+		7BE190482923716800D179D0 /* TYAudioSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE190462923716800D179D0 /* TYAudioSession.m */; };
 		7CCA77524B529F5F3E27A4852CF4411F /* Colours.h in Headers */ = {isa = PBXBuildFile; fileRef = 71E62E001DAC193F6EE630323FF9EFFB /* Colours.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7D24D21B28B00E91354E3A5A8A7EAD66 /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 14DB066BB66E4B209165145B45A89B32 /* UIView+MJExtension.m */; };
 		7D9E8F8A5D02148FCC2DBD6319BCC3D1 /* SDWebImageDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 52DCF29951B6DE6F3A4A2B4330BBB4E5 /* SDWebImageDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -202,7 +206,6 @@
 		997795BA486CFE8E8F47247BA54075F8 /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEF5E04262DE7F53DDB7C8C6383CE0C /* NSObject+MJKeyValue.m */; };
 		9C096C865369C21D252A0F4F90BE21D9 /* SDWeakProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E1941CA71541E6970E01083ACEBFB96 /* SDWeakProxy.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		9C41EF0E685AD816D8C26D83B93AB6AF /* MJRefreshStateHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A52D7672798FE75AB21AE7A1B012E37 /* MJRefreshStateHeader.m */; };
-		9C600973D731067ED2FA4C65AB006C10 /* TYAudioSystemRecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C9535FBA20030E329C51A1E95B1076 /* TYAudioSystemRecoder.m */; };
 		9CEB5B454088D6BCC3A11C759A76161A /* SDAnimatedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5655A3CB4327A2EE855A32B830B74683 /* SDAnimatedImage.m */; };
 		9D7EBB3A7377C116526B8A511F8CE245 /* SDDisplayLink.m in Sources */ = {isa = PBXBuildFile; fileRef = E4476C04B056EBC1AF2F2C351FD5F10C /* SDDisplayLink.m */; };
 		A083AAC3481062E5DE223D480757A83B /* UIButton+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C1271DA74B4F2516E93747DBFFDE20E /* UIButton+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -210,7 +213,6 @@
 		A0DA23E23139718F1C6C596CEB36CF8D /* TDStretch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D96B9E5250A4A4C365720E1B4F19849F /* TDStretch.cpp */; };
 		A1336977ADAAD492D6CFD089A8C6E358 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DF679B7ED5F9D2032C66CDB7BDC2A9A5 /* View+MASAdditions.m */; };
 		A24B4B60656BA387B9979BD877A23983 /* SDDisplayLink.h in Headers */ = {isa = PBXBuildFile; fileRef = 50DBD5033F327A11D52608F5FB8D2153 /* SDDisplayLink.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		A2664C417A636B61E0FBB34DE19D0F8F /* TYAudioSystemRecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = AD374AD23003201DEEBF77DCE6327C0C /* TYAudioSystemRecoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A2CE92DE43AB450DE1AAA129BFBADCBE /* SDGraphicsImageRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 81F6B3F9BB43BC71A33DB6EE56AA1EC3 /* SDGraphicsImageRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A2D78413A20294DDF33E20169AD7BA50 /* PeakFinder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFB6293D07A0C611D65411D755C33828 /* PeakFinder.cpp */; };
 		A36B349F4F080AAA4038E80CBFCD0140 /* NSObject+MJClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 71C1A9C3719E549306C9B051751AA4D0 /* NSObject+MJClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -573,7 +575,6 @@
 		2415784F936ADC42767A35B2CA9F2BB2 /* UIImage+GIF.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+GIF.h"; path = "SDWebImage/Core/UIImage+GIF.h"; sourceTree = "<group>"; };
 		241942E8A2B393C49AC4E44B3D31F8E1 /* SDWebImageCompat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCompat.m; path = SDWebImage/Core/SDWebImageCompat.m; sourceTree = "<group>"; };
 		24F994ECCAC02D14E55B9BE7C07614C1 /* MJRefreshNormalTrailer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshNormalTrailer.m; path = MJRefresh/Custom/Trailer/MJRefreshNormalTrailer.m; sourceTree = "<group>"; };
-		25C9535FBA20030E329C51A1E95B1076 /* TYAudioSystemRecoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TYAudioSystemRecoder.m; sourceTree = "<group>"; };
 		25E1EECF3E2BC76E1E0D3B949A841366 /* Pods-TianyiOCProsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TianyiOCProsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2614A48E2AD6F0D8C58826F75AE2ED94 /* RateTransposer.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = RateTransposer.cpp; sourceTree = "<group>"; };
 		26DC465844A2AB2951D2992417DF177F /* SDImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCache.h; path = SDWebImage/Core/SDImageCache.h; sourceTree = "<group>"; };
@@ -695,6 +696,10 @@
 		7862F345FC49B35F6B6F61043485221D /* UIColor+SDHexString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+SDHexString.h"; path = "SDWebImage/Private/UIColor+SDHexString.h"; sourceTree = "<group>"; };
 		78A32F670DD87837F56C2317D341866E /* PeakFinder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PeakFinder.h; sourceTree = "<group>"; };
 		7BA7B9DC3990A7C7CA497E8ABD027593 /* SDImageCoderHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCoderHelper.m; path = SDWebImage/Core/SDImageCoderHelper.m; sourceTree = "<group>"; };
+		7BE190412923660700D179D0 /* TYAudioUnitFileWriter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYAudioUnitFileWriter.h; sourceTree = "<group>"; };
+		7BE190422923660700D179D0 /* TYAudioUnitFileWriter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYAudioUnitFileWriter.m; sourceTree = "<group>"; };
+		7BE190452923716800D179D0 /* TYAudioSession.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYAudioSession.h; sourceTree = "<group>"; };
+		7BE190462923716800D179D0 /* TYAudioSession.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYAudioSession.m; sourceTree = "<group>"; };
 		7BEA6D3A9AB491A00AA901C764577EC2 /* SDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloaderOperation.h; path = SDWebImage/Core/SDWebImageDownloaderOperation.h; sourceTree = "<group>"; };
 		7C43721800CD0E55D7FB9DAE513AAD54 /* Masonry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.debug.xcconfig; sourceTree = "<group>"; };
 		7D066C2583BCF9C42C4F2FA7BCC3FF85 /* SDImageCodersManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCodersManager.m; path = SDWebImage/Core/SDImageCodersManager.m; sourceTree = "<group>"; };
@@ -772,7 +777,6 @@
 		ABEAF96716B4BC7522506BF447635C76 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		AC3D71DFA9EDFD5D878E1550C8589177 /* SDAnimatedImagePlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDAnimatedImagePlayer.h; path = SDWebImage/Core/SDAnimatedImagePlayer.h; sourceTree = "<group>"; };
 		ACCD8D147062385824014ECA172D7BB7 /* MJRefreshConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshConst.h; path = MJRefresh/MJRefreshConst.h; sourceTree = "<group>"; };
-		AD374AD23003201DEEBF77DCE6327C0C /* TYAudioSystemRecoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TYAudioSystemRecoder.h; sourceTree = "<group>"; };
 		AD8722203FAD7798EA01467E72D770ED /* SDDeviceHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDDeviceHelper.h; path = SDWebImage/Private/SDDeviceHelper.h; sourceTree = "<group>"; };
 		ADF086F4B19F4483813371B6B99B758C /* mmx_optimized.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = mmx_optimized.cpp; sourceTree = "<group>"; };
 		AE0C3622B66CD754A7022869171660B3 /* Pods-TianyiOCProsTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TianyiOCProsTests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -1077,10 +1081,12 @@
 				C2478AFEC4938807628F10D399DF9C71 /* TYAudioQueueRecorder.m */,
 				B7C442F7874CFEB5907F1890FAD28561 /* TYAudioRecorder.h */,
 				E251C36AA0F8154F444A632F09E7BB7D /* TYAudioRecorder.m */,
-				AD374AD23003201DEEBF77DCE6327C0C /* TYAudioSystemRecoder.h */,
-				25C9535FBA20030E329C51A1E95B1076 /* TYAudioSystemRecoder.m */,
+				7BE190452923716800D179D0 /* TYAudioSession.h */,
+				7BE190462923716800D179D0 /* TYAudioSession.m */,
 				C112B01EFB669555F559CD780AD736CC /* TYAudioUnitRecorder.h */,
 				BFEFAAA6A71BD02E3C2610E4E3CA75A7 /* TYAudioUnitRecorder.m */,
+				7BE190412923660700D179D0 /* TYAudioUnitFileWriter.h */,
+				7BE190422923660700D179D0 /* TYAudioUnitFileWriter.m */,
 			);
 			name = Recorder;
 			path = TianyiAVManager/Classes/Recorder;
@@ -1901,6 +1907,8 @@
 				1448E47323440FF1C30FAEFE44A2C736 /* soundtouch_config.h in Headers */,
 				1B4508729839A4DC6DAE66D0F2AF9DD0 /* STTypes.h in Headers */,
 				90DB64EF3181A4F58F5127589FE1B145 /* TDStretch.h in Headers */,
+				7BE190432923660700D179D0 /* TYAudioUnitFileWriter.h in Headers */,
+				7BE190472923716800D179D0 /* TYAudioSession.h in Headers */,
 				7F0BD01C54A0EBECD6BAC59EE1B42D15 /* TianyiAVManager-umbrella.h in Headers */,
 				E0C7AC9FC6E4C1D637D7A8B995FF65CE /* TYAudioPageViewController.h in Headers */,
 				2030DE9B8AC7CDAD7DDBE355E0E34F3E /* TYAudioPlayer.h in Headers */,
@@ -1908,7 +1916,6 @@
 				05539A27A03784BD0CA91F98F8BED73A /* TYAudioQueueRecorder.h in Headers */,
 				5A6EF489EDA580E734CB43A48B6B6A18 /* TYAudioRecorder.h in Headers */,
 				B0C5A847C145D3F64CF97906088DDD3D /* TYAudioSystemPlayer.h in Headers */,
-				A2664C417A636B61E0FBB34DE19D0F8F /* TYAudioSystemRecoder.h in Headers */,
 				D0FE4B149CEB80D193BF46397114B42F /* TYAudioUnitPlayer.h in Headers */,
 				84D27AD991F3637348AC7DDD249EDD4C /* TYAudioUnitRecorder.h in Headers */,
 				29E1E85E0C88126A0AA21273ABB54FBF /* TYMediaHomePageViewController.h in Headers */,
@@ -2460,6 +2467,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BE190482923716800D179D0 /* TYAudioSession.m in Sources */,
 				78FF5420AEAA3DBC38CEC9A7174F05C3 /* AAFilter.cpp in Sources */,
 				A3A69D8597FD63DC21B3B578C877CA73 /* AudioSoundTouchOperation.mm in Sources */,
 				FB66C9EE2F3D2FFB5D628B4F791DF31C /* BPMDetect.cpp in Sources */,
@@ -2474,13 +2482,13 @@
 				A6DAF37458CA8B041AA50FCE55AC54E2 /* sse_optimized.cpp in Sources */,
 				A0DA23E23139718F1C6C596CEB36CF8D /* TDStretch.cpp in Sources */,
 				C284EB304FAA961ABA80965F6AB1912F /* TianyiAVManager-dummy.m in Sources */,
+				7BE190442923660700D179D0 /* TYAudioUnitFileWriter.m in Sources */,
 				27AA8B880149736FEAB846592B6898CC /* TYAudioPageViewController.m in Sources */,
 				D2B9D1A502A1DB06098A0A6C168780AE /* TYAudioPlayer.m in Sources */,
 				CC8A39FBAC1E48AB47E83AEE4DE1DDEE /* TYAudioQueuePlayer.m in Sources */,
 				0980B44654561B136970008390C14047 /* TYAudioQueueRecorder.m in Sources */,
 				AB645430686D7C5A4793AA313014544B /* TYAudioRecorder.m in Sources */,
 				CB365B9843DE8B102A30B8FDB65314E3 /* TYAudioSystemPlayer.m in Sources */,
-				9C600973D731067ED2FA4C65AB006C10 /* TYAudioSystemRecoder.m in Sources */,
 				029C45CCCB20024A1FEE0A8A2D3CEB67 /* TYAudioUnitPlayer.m in Sources */,
 				7034C7B8DEE6E5F4321B36B797A3BE6B /* TYAudioUnitRecorder.m in Sources */,
 				240B56011B03CE1A0A5F81DEB9954292 /* TYMediaHomePageViewController.m in Sources */,
