@@ -570,6 +570,7 @@
 				DEVELOPMENT_TEAM = 3CL2V7G488;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TianyiOCPros/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "开启后，您可以在作品拍摄过程中录制音频。";
 				INFOPLIST_KEY_UILaunchStoryboardName = Main.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -597,6 +598,7 @@
 				DEVELOPMENT_TEAM = 3CL2V7G488;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TianyiOCPros/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "开启后，您可以在作品拍摄过程中录制音频。";
 				INFOPLIST_KEY_UILaunchStoryboardName = Main.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";

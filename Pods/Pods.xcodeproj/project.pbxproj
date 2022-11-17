@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		00784D6BBDFEE8B225A7253443936F81 /* TianyiAVManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2815517B50911340D555D60F9CD455A9 /* TianyiAVManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		007F57C0030B0CA201A359FD816A3CE1 /* SDImageFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 461A7857C42B90C00372ABC8EAA954E3 /* SDImageFrame.m */; };
-		01162A76B1B6337788224B47FE3A0DAE /* TianyiAVManager-TianyiAVManager in Resources */ = {isa = PBXBuildFile; fileRef = 16D26A1BE2377FA04A612B8B960191C3 /* TianyiAVManager-TianyiAVManager */; };
+		01162A76B1B6337788224B47FE3A0DAE /* TianyiAVManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 16D26A1BE2377FA04A612B8B960191C3 /* TianyiAVManager.bundle */; };
 		01E887B3B03C43CD4A1D2A80BAD24834 /* PeakFinder.h in Headers */ = {isa = PBXBuildFile; fileRef = 55A80288B434F1290AF77D97348241A3 /* PeakFinder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0311D5903A8C13AE6158796BC69AD994 /* SDWebImageTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 70BC5FC44E4BE5B17E1CEDC60AD13E39 /* SDWebImageTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		04BCB9A795A9F6FCFE32F445FF9BD723 /* MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 375F81E2A3FEDEA268A06A81766FD294 /* MJProperty.m */; };
@@ -103,7 +103,7 @@
 		4A27F890C33243C4548A25318264B375 /* UIImage+ForceDecode.h in Headers */ = {isa = PBXBuildFile; fileRef = BC904D66B8FA6B7917928393E50AF677 /* UIImage+ForceDecode.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4CC9B43AD90714A316815FAA71DC89A2 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA1E0C17F2399FEBD517F569955F762 /* MASConstraintMaker.m */; };
 		4D31CCA291F1AAB8DB56EAC5E5100D16 /* MJRefreshAutoStateFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = C61BCC60305CD92289E9F760AA917DF7 /* MJRefreshAutoStateFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4F0913EADF3207DFF676EDA71A04BD6E /* TianyiUIEngine-TianyiUIEngine in Resources */ = {isa = PBXBuildFile; fileRef = CC2760EB3E90DE9893E85034DED5E43B /* TianyiUIEngine-TianyiUIEngine */; };
+		4F0913EADF3207DFF676EDA71A04BD6E /* TianyiUIEngine.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CC2760EB3E90DE9893E85034DED5E43B /* TianyiUIEngine.bundle */; };
 		4F5982101CB9FB68613E826F137B5E95 /* SDAssociatedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = F39CAA7C588B03DA1293CCD616129716 /* SDAssociatedObject.m */; };
 		4FB353F2B2E7D7AE0811D7C538DA2B36 /* SDAnimatedImageRep.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B9592E73AD1EC81E4192074474359C5 /* SDAnimatedImageRep.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4FB9DA33675CCA3D35D4A494724E8794 /* soundtouch_config.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B6A73308828563DAD39F5A0BCBFCA35 /* soundtouch_config.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -256,7 +256,6 @@
 		BEA99A49E5F8DA685E33DABA606041FF /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 881FFF3C5EEAF1DAD5B6F3A6CA3B8EED /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BF1A148832BC2A213384F7F3700CF8B5 /* UICollectionViewLayout+MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = BC0581350EB5D0F9660561B3D80F8C72 /* UICollectionViewLayout+MJRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BF9A6E2CB8F67686C4B7E04538664919 /* UIImage+Transform.m in Sources */ = {isa = PBXBuildFile; fileRef = 921EE1F524B4DDF1198E2537E7310CD8 /* UIImage+Transform.m */; };
-		C08DB50B7A4B4E092681BCB3149F32A2 /* TYAudioUnitFileWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 28904B85D9BCA68162A57470330684B8 /* TYAudioUnitFileWriter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C27BD8C6B4E713A8E7B7B76B80E45823 /* SDWebImageDownloaderRequestModifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A450F66C54DC6A59296BDAEAA35F635 /* SDWebImageDownloaderRequestModifier.m */; };
 		C28E73E7C990B5831ABCDDA6F8275FD0 /* MJRefresh.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6C333FCFFC4BCE84E548EBA071892AF5 /* MJRefresh.bundle */; };
 		C2D82385F4FDB67F6613CBBE8E2BD850 /* SDMemoryCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 6047CA41AB531D07E0AADD933CBDFD1B /* SDMemoryCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -309,7 +308,6 @@
 		E3A90F4FB659B5DDCF5DA603DDEF9E66 /* MJRefreshAutoStateFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F56E825B7213146377DBABFD0132684 /* MJRefreshAutoStateFooter.m */; };
 		E4AF87F8012F919F00E2E8698A1A3C33 /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = 241942E8A2B393C49AC4E44B3D31F8E1 /* SDWebImageCompat.m */; };
 		E4BDAACFC4558423367A93027DA6AD4B /* Colours-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C80F1E5C3EBE7E92FD29BB75319952D /* Colours-dummy.m */; };
-		E4F7AF61C542C8AA7152735E01B38729 /* TYAudioUnitFileWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = B98B74AEE6CF4F455C43BB3B715C43C9 /* TYAudioUnitFileWriter.m */; };
 		E515780850EBAD40342EBF2997BFC2D2 /* SDWebImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 91DCE0FAF5C073631733B244D5EC8707 /* SDWebImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E53FCD0CD1526B53074ED4EEF00131E9 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = DFC46136181CE585CCA4C5316189861A /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E556832E0C191FCFABB9E97C87D243EF /* SDmetamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D22DB3BFD5AFD862EC09DEEC9703466 /* SDmetamacros.h */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -538,8 +536,8 @@
 		14DB066BB66E4B209165145B45A89B32 /* UIView+MJExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+MJExtension.m"; path = "MJRefresh/UIView+MJExtension.m"; sourceTree = "<group>"; };
 		151E9DDC94660190078ACADF2F9C6520 /* MJRefreshAutoNormalFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoNormalFooter.h; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoNormalFooter.h; sourceTree = "<group>"; };
 		15FA537A05C3B5F83A20C5E8BEC7780D /* MJRefreshAutoGifFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoGifFooter.h; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoGifFooter.h; sourceTree = "<group>"; };
-		16D26A1BE2377FA04A612B8B960191C3 /* TianyiAVManager-TianyiAVManager */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "TianyiAVManager-TianyiAVManager"; path = TianyiAVManager.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		170D8E72140AE6F0085BB6A61EFCCDA9 /* TianyiAVManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TianyiAVManager.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		16D26A1BE2377FA04A612B8B960191C3 /* TianyiAVManager.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TianyiAVManager.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		170D8E72140AE6F0085BB6A61EFCCDA9 /* TianyiAVManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = TianyiAVManager.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		172CE547A25B1E0C891BEEA356A1BC07 /* TYAudioSystemPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TYAudioSystemPlayer.h; sourceTree = "<group>"; };
 		174B3C619D28E2FD15F997529EA217FB /* Pods-TianyiOCProsTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TianyiOCProsTests.modulemap"; sourceTree = "<group>"; };
 		1757C600D3EF350352DAE164097744C0 /* PeakFinder.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = PeakFinder.cpp; sourceTree = "<group>"; };
@@ -566,7 +564,7 @@
 		21A41AC5AD4503DE373351D303AFFF6A /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJKeyValue.h"; path = "MJExtension/NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
 		21D3DA44CAD0ADC867FDEA7216034059 /* MJRefresh.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MJRefresh.release.xcconfig; sourceTree = "<group>"; };
 		21D4A4D9BA9FC1DE885915F715705043 /* NSObject+MJProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJProperty.h"; path = "MJExtension/NSObject+MJProperty.h"; sourceTree = "<group>"; };
-		21E3BC8991AF77E9086579D8BE7302DB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		21E3BC8991AF77E9086579D8BE7302DB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		220BE2157D8EF5A7427DC81023A2AAF9 /* Pods-TianyiOCPros-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TianyiOCPros-acknowledgements.plist"; sourceTree = "<group>"; };
 		22FC19584A9D75D79181A7F24CA2F5AA /* TYPageListBaseViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TYPageListBaseViewController.m; sourceTree = "<group>"; };
 		23B600148D352E63C4123B107F886864 /* SDImageCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCoder.h; path = SDWebImage/Core/SDImageCoder.h; sourceTree = "<group>"; };
@@ -580,7 +578,6 @@
 		27C4D9EBC6F0B0444EC7AC00FD25DED1 /* MJFoundation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJFoundation.m; path = MJExtension/MJFoundation.m; sourceTree = "<group>"; };
 		2815517B50911340D555D60F9CD455A9 /* TianyiAVManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TianyiAVManager-umbrella.h"; sourceTree = "<group>"; };
 		286918E131C1988234B73F97C718F7EB /* MJRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefresh.h; path = MJRefresh/MJRefresh.h; sourceTree = "<group>"; };
-		28904B85D9BCA68162A57470330684B8 /* TYAudioUnitFileWriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TYAudioUnitFileWriter.h; sourceTree = "<group>"; };
 		28A630873DDFAB6135EF0CB983C4D25B /* NSButton+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSButton+WebCache.m"; path = "SDWebImage/Core/NSButton+WebCache.m"; sourceTree = "<group>"; };
 		28B2C88AE765917AA0F7FD0AE7032410 /* TYPageListBaseCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TYPageListBaseCell.m; sourceTree = "<group>"; };
 		298A29664E426089AD76EA00CE871CB0 /* SDAnimatedImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDAnimatedImageView.m; path = SDWebImage/Core/SDAnimatedImageView.m; sourceTree = "<group>"; };
@@ -602,12 +599,12 @@
 		343F86E028B8E055F11AF49642609870 /* SDImageLoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageLoader.m; path = SDWebImage/Core/SDImageLoader.m; sourceTree = "<group>"; };
 		34DA19EA28402F57E7BE391E74AB8FCC /* MJRefresh.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MJRefresh.modulemap; sourceTree = "<group>"; };
 		375F81E2A3FEDEA268A06A81766FD294 /* MJProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJProperty.m; path = MJExtension/MJProperty.m; sourceTree = "<group>"; };
-		37DCA517466A65EB238E020955362CAC /* icons */ = {isa = PBXFileReference; includeInIndex = 1; name = icons; path = TianyiUIEngine/Assets/icons; sourceTree = "<group>"; };
+		37DCA517466A65EB238E020955362CAC /* icons */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = icons; path = TianyiUIEngine/Assets/icons; sourceTree = "<group>"; };
 		384934A24B072A857579A8981CA78B34 /* Colours */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Colours; path = Colours.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		389BE1984D35E6C74BE0E172824172E8 /* SDWebImageOptionsProcessor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageOptionsProcessor.h; path = SDWebImage/Core/SDWebImageOptionsProcessor.h; sourceTree = "<group>"; };
 		3A6849184B7AD09F717E99BC1B368F8D /* MJRefreshGifHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshGifHeader.h; path = MJRefresh/Custom/Header/MJRefreshGifHeader.h; sourceTree = "<group>"; };
 		3C1852E42C67F965E728F67392D4BC85 /* SDWebImage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SDWebImage.modulemap; sourceTree = "<group>"; };
-		3D21132C738B5B82B983A8A49667D85B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3D21132C738B5B82B983A8A49667D85B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3FE41C8ACFB9D3496746C3E44353F0DC /* MJRefresh.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MJRefresh.debug.xcconfig; sourceTree = "<group>"; };
 		3FEA93087D102E386D0CBDBF38BF5FEF /* SDImageAWebPCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageAWebPCoder.h; path = SDWebImage/Core/SDImageAWebPCoder.h; sourceTree = "<group>"; };
 		411F0BFDC65179FF43B7A5337DB0FFB4 /* SDImageCacheConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCacheConfig.m; path = SDWebImage/Core/SDImageCacheConfig.m; sourceTree = "<group>"; };
@@ -626,7 +623,7 @@
 		49F0319BD5F7BB17ECAC419DEDDC7F0A /* NSData+ImageContentType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+ImageContentType.m"; path = "SDWebImage/Core/NSData+ImageContentType.m"; sourceTree = "<group>"; };
 		4AD0474A7E836EC2577A26E5EDF71A80 /* TDStretch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TDStretch.h; sourceTree = "<group>"; };
 		4BEBE22378ED018D9E557C44A2D028DE /* Colours.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Colours.m; sourceTree = "<group>"; };
-		4C8F2305BE432306EE1AA3511F95A9FE /* TianyiUIEngine.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TianyiUIEngine.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4C8F2305BE432306EE1AA3511F95A9FE /* TianyiUIEngine.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = TianyiUIEngine.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4C9C43419EAC3375000048CBB856495C /* SDImageIOCoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageIOCoder.m; path = SDWebImage/Core/SDImageIOCoder.m; sourceTree = "<group>"; };
 		4CEF5E04262DE7F53DDB7C8C6383CE0C /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJKeyValue.m"; path = "MJExtension/NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
 		4D95316FBA657CCCF4DC05E40D263743 /* Colours.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Colours.modulemap; sourceTree = "<group>"; };
@@ -741,12 +738,12 @@
 		9D016310608F9BFCEA0D5F0D7D8D52C9 /* UIScrollView+MJExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+MJExtension.m"; path = "MJRefresh/UIScrollView+MJExtension.m"; sourceTree = "<group>"; };
 		9D359E07B5317D7BE50C7D58498E6010 /* TianyiUIEngine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TianyiUIEngine.release.xcconfig; sourceTree = "<group>"; };
 		9D628624516F54411CC7D510A73A7F0D /* UIView+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+WebCache.h"; path = "SDWebImage/Core/UIView+WebCache.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E1941CA71541E6970E01083ACEBFB96 /* SDWeakProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWeakProxy.h; path = SDWebImage/Private/SDWeakProxy.h; sourceTree = "<group>"; };
 		9E271A2167A1C57A039BF826D6682C0B /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = TianyiAVManager/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		9F3DCCFB81643E453A38B4304EAE80E4 /* Pods-TianyiOCPros-TianyiOCProsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TianyiOCPros-TianyiOCProsUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		9F6476C24986D60E54722CB840934B2E /* SDImageHEICCoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageHEICCoder.m; path = SDWebImage/Core/SDImageHEICCoder.m; sourceTree = "<group>"; };
-		9F7FC190963D693A9BB6F22BC5979B7F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9F7FC190963D693A9BB6F22BC5979B7F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		9FC7977A73DB321CA69AB804E637A996 /* SDImageIOAnimatedCoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageIOAnimatedCoder.m; path = SDWebImage/Core/SDImageIOAnimatedCoder.m; sourceTree = "<group>"; };
 		A08595D2C2870C6ED88365B12C1B40D0 /* SDWebImageError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageError.m; path = SDWebImage/Core/SDWebImageError.m; sourceTree = "<group>"; };
 		A136E455857731F6390CA230E198CF08 /* SDAnimatedImageView+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SDAnimatedImageView+WebCache.m"; path = "SDWebImage/Core/SDAnimatedImageView+WebCache.m"; sourceTree = "<group>"; };
@@ -792,7 +789,6 @@
 		B7D2738B6CB2E4CBEE17B813525E3448 /* NSImage+Compatibility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSImage+Compatibility.h"; path = "SDWebImage/Core/NSImage+Compatibility.h"; sourceTree = "<group>"; };
 		B7DEDFF1E904CF70167B905D0F1FD69F /* NSString+MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+MJExtension.h"; path = "MJExtension/NSString+MJExtension.h"; sourceTree = "<group>"; };
 		B980171E55331CA84BE566152F1F3906 /* MJRefreshAutoNormalFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoNormalFooter.m; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoNormalFooter.m; sourceTree = "<group>"; };
-		B98B74AEE6CF4F455C43BB3B715C43C9 /* TYAudioUnitFileWriter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TYAudioUnitFileWriter.m; sourceTree = "<group>"; };
 		BC0581350EB5D0F9660561B3D80F8C72 /* UICollectionViewLayout+MJRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UICollectionViewLayout+MJRefresh.h"; path = "MJRefresh/UICollectionViewLayout+MJRefresh.h"; sourceTree = "<group>"; };
 		BC904D66B8FA6B7917928393E50AF677 /* UIImage+ForceDecode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+ForceDecode.h"; path = "SDWebImage/Core/UIImage+ForceDecode.h"; sourceTree = "<group>"; };
 		BCE3B7DB4755D874B7B14DBF8FA76EC8 /* MJRefresh-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJRefresh-umbrella.h"; sourceTree = "<group>"; };
@@ -818,7 +814,7 @@
 		C74ADFC9A59846A3AED40567AA1FE4A3 /* TYAudioQueueRecorder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TYAudioQueueRecorder.m; sourceTree = "<group>"; };
 		C85F50A3B6614DC4C1FB79DEC4B8198F /* SDImageCacheConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCacheConfig.h; path = SDWebImage/Core/SDImageCacheConfig.h; sourceTree = "<group>"; };
 		C862011A662E152225E1EEDB58139F9D /* SDWebImageCompat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageCompat.h; path = SDWebImage/Core/SDWebImageCompat.h; sourceTree = "<group>"; };
-		C892ECDF2B5BF5C06B0C9F6D0ED7D501 /* audio */ = {isa = PBXFileReference; includeInIndex = 1; name = audio; path = TianyiAVManager/Assets/audio; sourceTree = "<group>"; };
+		C892ECDF2B5BF5C06B0C9F6D0ED7D501 /* audio */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = audio; path = TianyiAVManager/Assets/audio; sourceTree = "<group>"; };
 		C8C5008B8657FACBB051FE004604607C /* RateTransposer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RateTransposer.h; sourceTree = "<group>"; };
 		C8E6A1FF7CAFABE89208BAE6E03D083A /* SDImageIOCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageIOCoder.h; path = SDWebImage/Core/SDImageIOCoder.h; sourceTree = "<group>"; };
 		C9231407CEB5477B52FA823D1E46F5F7 /* UIImage+ExtendedCacheData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ExtendedCacheData.m"; path = "SDWebImage/Core/UIImage+ExtendedCacheData.m"; sourceTree = "<group>"; };
@@ -828,8 +824,8 @@
 		CAF00717570FC4CE5C1D01C55D8352B9 /* TYBaseTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TYBaseTool.m; sourceTree = "<group>"; };
 		CB01AB5FB6359D790A973C165602D09F /* FIRFilter.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = FIRFilter.cpp; sourceTree = "<group>"; };
 		CB1F5A4F4792D5E4EC5CA0DF8BFA35D2 /* TYAudioPageViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TYAudioPageViewController.m; sourceTree = "<group>"; };
-		CBCBFB6A97132AA92F3FE04F6DFD9C9C /* AudioSoundTouchOperation.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = AudioSoundTouchOperation.mm; sourceTree = "<group>"; };
-		CC2760EB3E90DE9893E85034DED5E43B /* TianyiUIEngine-TianyiUIEngine */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "TianyiUIEngine-TianyiUIEngine"; path = TianyiUIEngine.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBCBFB6A97132AA92F3FE04F6DFD9C9C /* AudioSoundTouchOperation.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = AudioSoundTouchOperation.mm; sourceTree = "<group>"; };
+		CC2760EB3E90DE9893E85034DED5E43B /* TianyiUIEngine.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TianyiUIEngine.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC3082CD1D4ACC0EEEB7D75AF816BED2 /* MJRefreshTrailer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshTrailer.h; path = MJRefresh/Base/MJRefreshTrailer.h; sourceTree = "<group>"; };
 		CC3871C79EC8802D60330D87ED5FBCD9 /* NSString+MJExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+MJExtension.m"; path = "MJExtension/NSString+MJExtension.m"; sourceTree = "<group>"; };
 		CC96319C6F842F43A9241A73C4F30608 /* SDImageAssetManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageAssetManager.m; path = SDWebImage/Private/SDImageAssetManager.m; sourceTree = "<group>"; };
@@ -871,7 +867,7 @@
 		E5D68AEAA48D6C880C814B96E7AA15A5 /* TYMediaHomePageViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TYMediaHomePageViewController.m; sourceTree = "<group>"; };
 		E5E9343EB729DAACBB3B00F8B7BAD3F6 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
 		E63D7D4AB23EA5FF08F28B8AE99ED2A9 /* SDDiskCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDDiskCache.m; path = SDWebImage/Core/SDDiskCache.m; sourceTree = "<group>"; };
-		E647C9BA802B0671143BB8B8171E800B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E647C9BA802B0671143BB8B8171E800B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E659B50A468921DCE1DE5120012FBC1C /* MJRefreshConst.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshConst.m; path = MJRefresh/MJRefreshConst.m; sourceTree = "<group>"; };
 		E666B600CF8B7C6730C2C838D8CB203D /* MJExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MJExtension-dummy.m"; sourceTree = "<group>"; };
 		E75A76BFE699CB2780A8BFF8FCCAEE2C /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
@@ -1039,7 +1035,6 @@
 				C2C5DC189A15D2518132E06D3697177D /* WaveHeader.cpp */,
 				C527480A844BE0C8DB2909D9DB11CC96 /* WaveHeader.h */,
 			);
-			name = AudioSoundTouch;
 			path = AudioSoundTouch;
 			sourceTree = "<group>";
 		};
@@ -1057,7 +1052,6 @@
 				185C38D295A5EEDF7A0FDF286EA53A5D /* ObjC */,
 				6AF114A3249B67E98EBA52788A73CA0C /* Support Files */,
 			);
-			name = Colours;
 			path = Colours;
 			sourceTree = "<group>";
 		};
@@ -1243,7 +1237,6 @@
 				CC3871C79EC8802D60330D87ED5FBCD9 /* NSString+MJExtension.m */,
 				CF758C0AA3AADB78BAF976BCF0BEA01E /* Support Files */,
 			);
-			name = MJExtension;
 			path = MJExtension;
 			sourceTree = "<group>";
 		};
@@ -1289,7 +1282,6 @@
 				50083C4A0197534EE4413BE891BE15DA /* ViewController+MASAdditions.m */,
 				3D7C8FC20BB1AB63E3201BB16E6A8BDA /* Support Files */,
 			);
-			name = Masonry;
 			path = Masonry;
 			sourceTree = "<group>";
 		};
@@ -1299,7 +1291,6 @@
 				E7D4A9F37CEC46063899D0E10A1E6FCB /* Core */,
 				11FD8591C25B2E3E0016250520269132 /* Support Files */,
 			);
-			name = SDWebImage;
 			path = SDWebImage;
 			sourceTree = "<group>";
 		};
@@ -1330,7 +1321,6 @@
 				688B38DA2BBA881F90B85B93671A772C /* TDStretch.cpp */,
 				4AD0474A7E836EC2577A26E5EDF71A80 /* TDStretch.h */,
 			);
-			name = SoundTouch;
 			path = SoundTouch;
 			sourceTree = "<group>";
 		};
@@ -1395,9 +1385,9 @@
 				6735C5C234EEBC3385CA4DC121660351 /* Pods-TianyiOCProsTests */,
 				B0B214D775196BA7CA8E17E53048A493 /* SDWebImage */,
 				18145CF648CCFD888FD78672855367F9 /* TianyiAVManager */,
-				16D26A1BE2377FA04A612B8B960191C3 /* TianyiAVManager-TianyiAVManager */,
+				16D26A1BE2377FA04A612B8B960191C3 /* TianyiAVManager.bundle */,
 				60BDA8EF2D631D5022B10C2B300B0985 /* TianyiUIEngine */,
-				CC2760EB3E90DE9893E85034DED5E43B /* TianyiUIEngine-TianyiUIEngine */,
+				CC2760EB3E90DE9893E85034DED5E43B /* TianyiUIEngine.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1502,8 +1492,6 @@
 				47C2C6490F726137CA19B8DA82496C12 /* TYAudioRecorder.m */,
 				F98878674CDE64C2F9AD364636686E89 /* TYAudioSession.h */,
 				66493721D3AB68666B2205C949CBEBFA /* TYAudioSession.m */,
-				28904B85D9BCA68162A57470330684B8 /* TYAudioUnitFileWriter.h */,
-				B98B74AEE6CF4F455C43BB3B715C43C9 /* TYAudioUnitFileWriter.m */,
 				3151E623DE216BAB8F7CC4DDDD6CD2CD /* TYAudioUnitRecorder.h */,
 				2F42816ABF73F5C6547712915BF4D09C /* TYAudioUnitRecorder.m */,
 			);
@@ -1715,7 +1703,6 @@
 				2DEF8B891C412794068FB870C9993EA8 /* Resources */,
 				4FE8BD3BC2E3264A6B3AA3E26D4E1907 /* Support Files */,
 			);
-			name = MJRefresh;
 			path = MJRefresh;
 			sourceTree = "<group>";
 		};
@@ -1854,7 +1841,6 @@
 				8F800F6E39FC0DAA057D21BD5CA62E55 /* TYAudioRecorder.h in Headers */,
 				8FAA08802C4F92A82727F51BCF6BDD52 /* TYAudioSession.h in Headers */,
 				B69E9599DE6248E959F4E64FA3E61A61 /* TYAudioSystemPlayer.h in Headers */,
-				C08DB50B7A4B4E092681BCB3149F32A2 /* TYAudioUnitFileWriter.h in Headers */,
 				B247D7A038B02E804B4C39EBB91AF0C0 /* TYAudioUnitPlayer.h in Headers */,
 				0A57DDA887AD1804BCBE3D786526BEDE /* TYAudioUnitRecorder.h in Headers */,
 				87F3AB5BAEBF9FAC152CEB9A8C77DD64 /* TYMediaHomePageViewController.h in Headers */,
@@ -2153,7 +2139,7 @@
 			);
 			name = "TianyiUIEngine-TianyiUIEngine";
 			productName = TianyiUIEngine;
-			productReference = CC2760EB3E90DE9893E85034DED5E43B /* TianyiUIEngine-TianyiUIEngine */;
+			productReference = CC2760EB3E90DE9893E85034DED5E43B /* TianyiUIEngine.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		8B819EB12BBACA432BF81D51DED0C300 /* Pods-TianyiOCPros-TianyiOCProsUITests */ = {
@@ -2195,7 +2181,7 @@
 			);
 			name = "TianyiAVManager-TianyiAVManager";
 			productName = TianyiAVManager;
-			productReference = 16D26A1BE2377FA04A612B8B960191C3 /* TianyiAVManager-TianyiAVManager */;
+			productReference = 16D26A1BE2377FA04A612B8B960191C3 /* TianyiAVManager.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		E09FB86A694C1C7378A967CE6DBA2D95 /* Pods-TianyiOCPros */ = {
@@ -2303,7 +2289,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F0913EADF3207DFF676EDA71A04BD6E /* TianyiUIEngine-TianyiUIEngine in Resources */,
+				4F0913EADF3207DFF676EDA71A04BD6E /* TianyiUIEngine.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2326,7 +2312,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01162A76B1B6337788224B47FE3A0DAE /* TianyiAVManager-TianyiAVManager in Resources */,
+				01162A76B1B6337788224B47FE3A0DAE /* TianyiAVManager.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2567,7 +2553,6 @@
 				C7B8A97FCB61657140755C4EA74EE376 /* TYAudioRecorder.m in Sources */,
 				3DB1900F8D6BBC7DE6AAF21831E90635 /* TYAudioSession.m in Sources */,
 				BE883FD0EB0865F84ABD2348EE59ED28 /* TYAudioSystemPlayer.m in Sources */,
-				E4F7AF61C542C8AA7152735E01B38729 /* TYAudioUnitFileWriter.m in Sources */,
 				6C10DEC6797AA7977AB8C67DE9675C41 /* TYAudioUnitPlayer.m in Sources */,
 				A5AEF2148D8A639163025CDC649D9119 /* TYAudioUnitRecorder.m in Sources */,
 				B376424B7C8EC54B5299FAF4D9FDA088 /* TYMediaHomePageViewController.m in Sources */,
@@ -2886,6 +2871,7 @@
 			baseConfigurationReference = 1B33B4F292107C22355F102FB2F430F9 /* TianyiUIEngine.debug.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TianyiUIEngine";
+				DEVELOPMENT_TEAM = 3CL2V7G488;
 				IBSC_MODULE = TianyiUIEngine;
 				INFOPLIST_FILE = "Target Support Files/TianyiUIEngine/ResourceBundle-TianyiUIEngine-TianyiUIEngine-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -2902,6 +2888,7 @@
 			baseConfigurationReference = DF595DF980C63078EED67307779421D2 /* TianyiAVManager.debug.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TianyiAVManager";
+				DEVELOPMENT_TEAM = 3CL2V7G488;
 				IBSC_MODULE = TianyiAVManager;
 				INFOPLIST_FILE = "Target Support Files/TianyiAVManager/ResourceBundle-TianyiAVManager-TianyiAVManager-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -3224,6 +3211,7 @@
 			baseConfigurationReference = 7B8BC4FA6792AB1DF42074C8C9123FA6 /* TianyiAVManager.release.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TianyiAVManager";
+				DEVELOPMENT_TEAM = 3CL2V7G488;
 				IBSC_MODULE = TianyiAVManager;
 				INFOPLIST_FILE = "Target Support Files/TianyiAVManager/ResourceBundle-TianyiAVManager-TianyiAVManager-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -3472,6 +3460,7 @@
 			baseConfigurationReference = 9D359E07B5317D7BE50C7D58498E6010 /* TianyiUIEngine.release.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TianyiUIEngine";
+				DEVELOPMENT_TEAM = 3CL2V7G488;
 				IBSC_MODULE = TianyiUIEngine;
 				INFOPLIST_FILE = "Target Support Files/TianyiUIEngine/ResourceBundle-TianyiUIEngine-TianyiUIEngine-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
