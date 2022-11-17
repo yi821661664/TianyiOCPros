@@ -17,7 +17,6 @@
 #import "TYAudioQueueRecorder.h"
 #import "TYAudioRecorder.h"
 #import "TYAudioSession.h"
-#import "TYAudioUnitFileWriter.h"
 #import "TYAudioUnitRecorder.h"
 #import "AudioSoundTouchOperation.h"
 #import "WaveHeader.h"
