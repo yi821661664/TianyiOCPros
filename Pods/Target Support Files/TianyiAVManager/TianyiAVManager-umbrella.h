@@ -14,6 +14,7 @@
 #import "TYAudioQueuePlayer.h"
 #import "TYAudioSystemPlayer.h"
 #import "TYAudioUnitPlayer.h"
+#import "TYAudioUnitReader.h"
 #import "TYAudioQueueRecorder.h"
 #import "TYAudioRecorder.h"
 #import "TYAudioSession.h"
