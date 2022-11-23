@@ -11,6 +11,8 @@
 #endif
 
 #import "TYBaseTool.h"
+#import "TYHud.h"
+#import "TYCustomView.h"
 #import "TYPageListBaseCell.h"
 #import "TYBaseViewController.h"
 #import "TYHomePageViewController.h"

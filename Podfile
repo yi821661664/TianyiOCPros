@@ -5,6 +5,7 @@ target 'TianyiOCPros' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
+  # 如果运行失败，报错CADebugPrintf.h找不到，则需要在子库中setting删除preprocessor的内容
   # Pods for TianyiOCPros
   pod 'TianyiAVManager', :path => '../TianyiAVManager'
   pod 'TianyiUIEngine', :path => '../TianyiUIEngine'
@@ -13,6 +14,8 @@ target 'TianyiOCPros' do
   pod 'MJExtension'
   pod 'SDWebImage'
   pod 'Colours'
+  pod 'MBProgressHUD'
+  pod 'LookinServer', :configurations => ['Debug']
 
   target 'TianyiOCProsTests' do
     inherit! :search_paths

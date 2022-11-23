@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		16F83F5128C3919C01D942FE /* Pods_TianyiOCPros_TianyiOCProsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BED85A0BFAC2714E315EB01 /* Pods_TianyiOCPros_TianyiOCProsUITests.framework */; };
+		7BB1218029275C13009E7211 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BB1217F29275C13009E7211 /* AudioToolbox.framework */; };
 		7BB5D7452922000A00053347 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB5D7442922000A00053347 /* AppDelegate.m */; };
 		7BB5D7502922000D00053347 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BB5D74F2922000D00053347 /* Assets.xcassets */; };
 		7BB5D7532922000D00053347 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BB5D7512922000D00053347 /* LaunchScreen.storyboard */; };
@@ -41,6 +42,7 @@
 		43BD65FBFEFA426E879A96B6 /* Pods-TianyiOCPros-TianyiOCProsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TianyiOCPros-TianyiOCProsUITests.debug.xcconfig"; path = "Target Support Files/Pods-TianyiOCPros-TianyiOCProsUITests/Pods-TianyiOCPros-TianyiOCProsUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		5F8AF11ECA996F582CC03599 /* Pods-TianyiOCProsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TianyiOCProsTests.debug.xcconfig"; path = "Target Support Files/Pods-TianyiOCProsTests/Pods-TianyiOCProsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6BED85A0BFAC2714E315EB01 /* Pods_TianyiOCPros_TianyiOCProsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TianyiOCPros_TianyiOCProsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BB1217F29275C13009E7211 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		7BB5D7402922000A00053347 /* TianyiOCPros.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TianyiOCPros.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BB5D7432922000A00053347 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7BB5D7442922000A00053347 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E70852C6C9BB3B76ED77D976 /* Pods_TianyiOCPros.framework in Frameworks */,
+				7BB1218029275C13009E7211 /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +94,7 @@
 		51EB272EE3031E8CF12B3A26 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7BB1217F29275C13009E7211 /* AudioToolbox.framework */,
 				BE5F93B9107C684706771A14 /* Pods_TianyiOCPros.framework */,
 				6BED85A0BFAC2714E315EB01 /* Pods_TianyiOCPros_TianyiOCProsUITests.framework */,
 				A50AAC0434764E096D06FA3A /* Pods_TianyiOCProsTests.framework */,
@@ -568,6 +572,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3CL2V7G488;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TianyiOCPros/Info.plist;
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "开启后，您可以在作品拍摄过程中录制音频。";
@@ -596,6 +601,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3CL2V7G488;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TianyiOCPros/Info.plist;
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "开启后，您可以在作品拍摄过程中录制音频。";

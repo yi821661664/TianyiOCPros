@@ -1,5 +1,6 @@
 ${PODS_ROOT}/Target Support Files/Pods-TianyiOCPros-TianyiOCProsUITests/Pods-TianyiOCPros-TianyiOCProsUITests-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/Colours/Colours.framework
+${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework
 ${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework
 ${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework
 ${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework
