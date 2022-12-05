@@ -476,6 +476,8 @@
 		E9CF46857D61D2A8AF4C3722C27C61C6 /* SDImageCoderHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C2CFF3E1178EC0914E9FF81E1CC7EE1 /* SDImageCoderHelper.m */; };
 		EA06A9B07DD05F7C8AB0083F0920BF03 /* LKS_LocalInspectPanelLabelView.h in Headers */ = {isa = PBXBuildFile; fileRef = 39202E9DBFCB7E5A2E4508E48C19A0CB /* LKS_LocalInspectPanelLabelView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EA138891E66C31BA0DCD10D2D78FF855 /* UIBlurEffect+LookinServer.h in Headers */ = {isa = PBXBuildFile; fileRef = F6331A0AEF3D8781A13FC5602041B09A /* UIBlurEffect+LookinServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB025082293DD72000D703B4 /* TYVideoPageViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = EB025080293DD72000D703B4 /* TYVideoPageViewController.h */; };
+		EB025083293DD72000D703B4 /* TYVideoPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB025081293DD72000D703B4 /* TYVideoPageViewController.m */; };
 		EC7A19215B0957CF1EFFF58A1D79F273 /* MJRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 644FFD6FCBC9148B3C77E496DCF27B31 /* MJRefreshFooter.m */; };
 		ED7BA056745B3725091B3A39067BDD0B /* LookinAttributesSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 1526E66B1FED12C27655C0FACA2F3384 /* LookinAttributesSection.m */; };
 		EE85A2DDCED7EE7AB3F57DE292D36C18 /* MJRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC6D3F4F5C8F1C25D108B6C596E0523 /* MJRefreshHeader.m */; };
@@ -956,7 +958,7 @@
 		5ECAEFB2721976A3DDA9D74079B5443A /* TYAudioPageViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TYAudioPageViewController.m; sourceTree = "<group>"; };
 		6023E559346AAAAA669319E3C3F5E4AD /* UIColor+LookinServer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+LookinServer.m"; path = "Src/Main/Server/Category/UIColor+LookinServer.m"; sourceTree = "<group>"; };
 		602B457ECAEAFA7A2B76622EA87A922B /* MJRefresh.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MJRefresh.debug.xcconfig; sourceTree = "<group>"; };
-		60BDA8EF2D631D5022B10C2B300B0985 /* TianyiUIEngine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TianyiUIEngine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		60BDA8EF2D631D5022B10C2B300B0985 /* TianyiUIEngine */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TianyiUIEngine; path = TianyiUIEngine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		60F941DBE0841168BF908B73FF9E46DD /* sse_optimized.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = sse_optimized.cpp; sourceTree = "<group>"; };
 		612820B0647C6923E7123B3936A3238C /* Pods-TianyiOCPros-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TianyiOCPros-umbrella.h"; sourceTree = "<group>"; };
 		61FDF02F97179D608DCA1A82ECD0002D /* UIGestureRecognizer+LookinServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIGestureRecognizer+LookinServer.h"; path = "Src/Main/Server/Category/UIGestureRecognizer+LookinServer.h"; sourceTree = "<group>"; };
@@ -1254,6 +1256,8 @@
 		E855B6C262D3E74430C7121E85329934 /* AAFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AAFilter.h; sourceTree = "<group>"; };
 		E9CEB3E841BFDB2F77C48A4F8B74A506 /* SDWebImageDownloaderResponseModifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloaderResponseModifier.h; path = SDWebImage/Core/SDWebImageDownloaderResponseModifier.h; sourceTree = "<group>"; };
 		EAF36934951DD21CBCBA4C22962BAE41 /* SDAssociatedObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDAssociatedObject.h; path = SDWebImage/Private/SDAssociatedObject.h; sourceTree = "<group>"; };
+		EB025080293DD72000D703B4 /* TYVideoPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYVideoPageViewController.h; sourceTree = "<group>"; };
+		EB025081293DD72000D703B4 /* TYVideoPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYVideoPageViewController.m; sourceTree = "<group>"; };
 		EB23680A9FC934C879B268F6F945D3C4 /* MJExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MJExtension.debug.xcconfig; sourceTree = "<group>"; };
 		EB258A50D0447741CEA7E5CE94C48EEB /* SDWebImageDownloaderDecryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloaderDecryptor.h; path = SDWebImage/Core/SDWebImageDownloaderDecryptor.h; sourceTree = "<group>"; };
 		ED09D89DB725D00555F577F1FF3769D5 /* MJRefresh-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJRefresh-prefix.pch"; sourceTree = "<group>"; };
@@ -1690,7 +1694,7 @@
 				B0B214D775196BA7CA8E17E53048A493 /* SDWebImage */,
 				18145CF648CCFD888FD78672855367F9 /* TianyiAVManager.framework */,
 				16D26A1BE2377FA04A612B8B960191C3 /* TianyiAVManager.bundle */,
-				60BDA8EF2D631D5022B10C2B300B0985 /* TianyiUIEngine.framework */,
+				60BDA8EF2D631D5022B10C2B300B0985 /* TianyiUIEngine */,
 				CC2760EB3E90DE9893E85034DED5E43B /* TianyiUIEngine.bundle */,
 			);
 			name = Products;
@@ -2130,6 +2134,8 @@
 				5ECAEFB2721976A3DDA9D74079B5443A /* TYAudioPageViewController.m */,
 				A59C09467906DCD6E10728AB3C716A7B /* TYMediaHomePageViewController.h */,
 				B9B4620E39791DD08A0C29F74653B25C /* TYMediaHomePageViewController.m */,
+				EB025080293DD72000D703B4 /* TYVideoPageViewController.h */,
+				EB025081293DD72000D703B4 /* TYVideoPageViewController.m */,
 			);
 			name = ViewController;
 			path = TianyiAVManager/Classes/ViewController;
@@ -2703,6 +2709,7 @@
 				960CFAEB30F16536FF91152EA8D64F35 /* SoundTouch.h in Headers */,
 				C0A10D6BD0484CDE718BA461A374123A /* soundtouch_config.h in Headers */,
 				A55A9D5476D5725FCFC6799DA963CE88 /* STTypes.h in Headers */,
+				EB025082293DD72000D703B4 /* TYVideoPageViewController.h in Headers */,
 				C7658C64EF29C7C5085085F06DC77C9D /* TDStretch.h in Headers */,
 				D500B8F9C273014F3C9DA118DBC0AC0A /* TianyiAVManager-umbrella.h in Headers */,
 				4572E8835FE5533A6CDE30FD46B4FCD7 /* TYAudioPageViewController.h in Headers */,
@@ -2782,7 +2789,7 @@
 			);
 			name = TianyiUIEngine;
 			productName = TianyiUIEngine;
-			productReference = 60BDA8EF2D631D5022B10C2B300B0985 /* TianyiUIEngine.framework */;
+			productReference = 60BDA8EF2D631D5022B10C2B300B0985 /* TianyiUIEngine */;
 			productType = "com.apple.product-type.framework";
 		};
 		3847153A6E5EEFB86565BA840768F429 /* SDWebImage */ = {
@@ -3007,8 +3014,13 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1240;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					70EBF378547ADC095426394DE92035A4 = {
+						LastSwiftMigration = 1410;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 13.0";
@@ -3402,6 +3414,7 @@
 				39361B8C54CE4B3E2316365093B8C55C /* AudioDecodeOperation.mm in Sources */,
 				F0C2B19062C27A1684F79C0A11AEB1DB /* AudioSoundTouchOperation.mm in Sources */,
 				F55F7F28C120A3AF643A33E4A6ABBECF /* BPMDetect.cpp in Sources */,
+				EB025083293DD72000D703B4 /* TYVideoPageViewController.m in Sources */,
 				9FC26F42412C69ADF1A1CEEC2F95B2CC /* CAStreamBasicDescription.cpp in Sources */,
 				595DD8288345EB4754AEC76409C97497 /* CAXException.cpp in Sources */,
 				C549525E400C31A1F6A81943BD1E1BCA /* cpu_detect_x86.cpp in Sources */,
@@ -3730,7 +3743,7 @@
 			baseConfigurationReference = A76E513706B78AF9F0AF85645ACB3B49 /* TianyiAVManager.release.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TianyiAVManager";
-				DEVELOPMENT_TEAM = 3CL2V7G488;
+				DEVELOPMENT_TEAM = 5YBGL8U3BE;
 				IBSC_MODULE = TianyiAVManager;
 				INFOPLIST_FILE = "Target Support Files/TianyiAVManager/ResourceBundle-TianyiAVManager-TianyiAVManager-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -3756,7 +3769,6 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/TianyiUIEngine/TianyiUIEngine-prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = "";
 				INFOPLIST_FILE = "Target Support Files/TianyiUIEngine/TianyiUIEngine-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -3791,7 +3803,6 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/TianyiUIEngine/TianyiUIEngine-prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = "";
 				INFOPLIST_FILE = "Target Support Files/TianyiUIEngine/TianyiUIEngine-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -4126,6 +4137,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A76E513706B78AF9F0AF85645ACB3B49 /* TianyiAVManager.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -4136,7 +4148,6 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/TianyiAVManager/TianyiAVManager-prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = "";
 				INFOPLIST_FILE = "Target Support Files/TianyiAVManager/TianyiAVManager-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -4151,6 +4162,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -4232,10 +4244,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
+				GCC_PREPROCESSOR_DEFINITIONS = "";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -4259,7 +4268,7 @@
 			baseConfigurationReference = 0B137D69B6366007BEE4881DF32F865A /* TianyiUIEngine.release.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TianyiUIEngine";
-				DEVELOPMENT_TEAM = 3CL2V7G488;
+				DEVELOPMENT_TEAM = 5YBGL8U3BE;
 				IBSC_MODULE = TianyiUIEngine;
 				INFOPLIST_FILE = "Target Support Files/TianyiUIEngine/ResourceBundle-TianyiUIEngine-TianyiUIEngine-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -4417,6 +4426,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 556091FC48FF34CEA33F4F281FEEA6D7 /* TianyiAVManager.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -4427,7 +4437,6 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/TianyiAVManager/TianyiAVManager-prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = "";
 				INFOPLIST_FILE = "Target Support Files/TianyiAVManager/TianyiAVManager-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -4442,6 +4451,8 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -4522,7 +4533,7 @@
 			baseConfigurationReference = 556091FC48FF34CEA33F4F281FEEA6D7 /* TianyiAVManager.debug.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TianyiAVManager";
-				DEVELOPMENT_TEAM = 3CL2V7G488;
+				DEVELOPMENT_TEAM = 5YBGL8U3BE;
 				IBSC_MODULE = TianyiAVManager;
 				INFOPLIST_FILE = "Target Support Files/TianyiAVManager/ResourceBundle-TianyiAVManager-TianyiAVManager-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -4576,11 +4587,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_DEBUG=1",
-					"DEBUG=1",
-					"$(inherited)",
-				);
+				GCC_PREPROCESSOR_DEFINITIONS = "";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -4638,7 +4645,7 @@
 			baseConfigurationReference = 288A89C8CB6C326F54AD77191171EF9C /* TianyiUIEngine.debug.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TianyiUIEngine";
-				DEVELOPMENT_TEAM = 3CL2V7G488;
+				DEVELOPMENT_TEAM = 5YBGL8U3BE;
 				IBSC_MODULE = TianyiUIEngine;
 				INFOPLIST_FILE = "Target Support Files/TianyiUIEngine/ResourceBundle-TianyiUIEngine-TianyiUIEngine-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
